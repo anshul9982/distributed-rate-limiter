@@ -1,0 +1,14 @@
+# General
+.DS_Store
+.idea/
+*.iml
+.vscode/
+
+# Java / Gradle (for the service)
+**/build/
+**/.gradle/
+**/gradle/wrapper/gradle-wrapper.jar
+
+# Redis/Postgres Data (if you mapped them locally)
+postgres_data/
+redis_data/
