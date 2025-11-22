@@ -48,7 +48,7 @@ The system follows a **Layered Architecture** with strict separation of concerns
 │   │   ├── strategy/       # Rate Limiting Algorithms (TokenBucket)
 │   │   └── config/         # Redis & Resilience Config
 │   └── src/main/resources/scripts/ # Lua Scripts
-├── k8s/                    # Helm Charts & K8s Manifests
+├── k8s-chart/              # Helm Charts & K8s Manifests
 ├── docker-compose.yml      # Local Dev Environment
 └── README.md               # You are here
 ```
